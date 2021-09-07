@@ -1,0 +1,13 @@
+.statistics {
+  background-color: #ffffff;
+  padding: 20px 0 0;
+  margin: 30px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 50px;
+  font-weight: bold;
+}
