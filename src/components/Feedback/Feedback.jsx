@@ -11,7 +11,7 @@ export class Feedback extends Component {
     bad: 0,
   };
 
-  handleIncrement = ({ target: { name } }) => {
+  handleIncrement = name => {
     this.setState(prevState => ({
       [name]: prevState[name] + 1,
     }));
